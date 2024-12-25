@@ -2,6 +2,15 @@
 Script for installing MikroTik CHR on any VPS
 
 download mikrotik-chr.sh
+
+```
+curl -O https://raw.githubusercontent.com/PopovGP/MikroTik-CHR-install/refs/heads/main/mikrotik-chr.sh
+```
+or
+```
+wget https://raw.githubusercontent.com/PopovGP/MikroTik-CHR-install/refs/heads/main/mikrotik-chr.sh
+```
+
 execute
 ```
 chmod +x mikrotik-chr.sh
