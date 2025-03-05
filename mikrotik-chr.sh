@@ -13,13 +13,11 @@ unzip chr-7.18.1.img.zip
 
 echo u > /proc/sysrq-trigger
 
-dd if=chr-7.18.1.img of=/dev/vda bs=4M oflag=sync
-
-#
-# two lines below this comment are required
 # documentation: https://www.kernel.org/doc/html/v5.1/admin-guide/sysrq.html
 # enable sysrq
 echo 1 > /proc/sys/kernel/sysrq
+
+dd if=chr-7.18.1.img of=/dev/vda bs=4M oflag=sync
 
 #  send command to sysrq
 # command 'b' - will immediately reboot the system without syncing or unmounting your disks.
