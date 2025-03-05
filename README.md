@@ -33,7 +33,7 @@ or your copy and paste code below:
 #
 
 apt-get install -y curl unzip
-curl -O https://download.mikrotik.com/routeros/7.16.2/chr-7.16.2.img.zip
+curl -O https://download.mikrotik.com/routeros/7.18.1/chr-7.18.1.img.zip
 unzip chr-7.16.2.img.zip
 dd if=chr-7.16.2.img of=/dev/vda bs=4M oflag=sync
 
